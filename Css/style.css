@@ -1,0 +1,48 @@
+/*.content{
+    max-width: 300px;
+}
+.btn{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5px;
+    border-bottom: 1px solid transparent;
+    
+}
+#btn1{
+    background-color: green;
+}
+#btn2{
+    background-color: red;
+}
+.like_btn{
+    width: 25px;
+    color: red;
+    background-color: #fff;
+}*/
+
+.container{
+    max-width: 800px;
+    background-color: #1a7ded;
+    border-radius: 15px;
+}
+.table{
+    
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+    border-radius: 15px;
+}
+ .quantity .qty_plus{
+    background-color: green;
+}
+ .quantity .qty_moins{
+    background-color: red;
+}
+
+.stucture h3{
+    color: #fff;
+    font-size: 20px;
+    padding: 5px;
+    
+}

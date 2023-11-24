@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom</title>
+    <link rel="stylesheet" href="/Css/style.css">
+</head>
+<body>
+
+    <!--form name="loginform" onsubmit="return validateform(event)">
+        <label for="Name">Name:</label>
+        <input type="text" name="name" placeholder="exemple@exemple.com">
+        <label for="password">password</label>
+        <input type="password" name="password" placeholder="*******">
+        <button type="submit">Login</button>
+        <button type="reset">Cancel</button>
+    </form-->
+    
+        <!--div class="content">
+            
+            <div class="btn ">
+                <p>Article 1</p>
+                <button id="btn1" onclick="plus">+</button>
+                <p>3</p>
+                <button id="btn2" onclick="moins">-</button>
+                <button id="btn3" onclick="supprimer">supprimer</button>
+                <button class="like_btn">♥</button>
+            </div>
+            <hr>
+            <span>Total =</span>
+        </div-->
+        <div class="container">
+            <div class="stucture">
+                <h3>Panier</h3>
+                <table id="table">
+                    <thead>
+                        <tr>
+                            <th>Nom de l'article</th>
+                            <th>Quantité</th>
+                            <th>Price unitaire</th>
+                            <th>Sous total</th>
+                        </tr>
+                    </thead>
+                    <tbody id="all_products">
+                        <tr>
+                            <td class="article_name"><div style="margin-right: 1rem;"><img src=""></div><div><h4>Ordinateur Portable</h4></div></td>
+
+                            <td class="quantity">
+                                <button class="qty_plus" id="1">+</button>
+                                <input type="text" readonly placeholder="unit price" class="qty" value="1">
+                                <button class="qty_moins" id="1">-</button>
+                                <button class="supprimer" id="supprimer">Supprimer</button>
+                                <button class="like_btn">♥</button>
+                            </td>
+                            <td class="price">150000 $</td>
+                            <td class="subtotal">150000 $</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td><input type="text" id="name_produit" placeholder="Nom de l'article" contenteditable=""></td>
+                            <td><input type="number" step="1" id="price_product" value="1000" contenteditable=""></td>
+
+                            
+                            <td><button type="button" id="add_button">Ajouter un article</button></td>
+                            
+                        </tr>
+                    </tfoot>
+                </table>
+                <h3>Total :<span id="total_display">0 $</span></h3>
+            </div>
+
+        </div>
+        
+        
+  
+
+
+    <script src="/script/js.js"></script>
+</body>
+</html>
